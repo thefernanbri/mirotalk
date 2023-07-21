@@ -646,95 +646,95 @@ function setButtonsToolTip() {
     // not need for mobile
     if (isMobileDevice) return;
     // init buttons
-    setTippy(initScreenShareBtn, 'Toggle screen sharing', 'top');
+    setTippy(initScreenShareBtn, 'Compartilhamento de Tela', 'top');
     // main buttons
-    setTippy(shareRoomBtn, 'Invite others to join', 'right-start');
-    setTippy(hideMeBtn, 'Toggle hide myself from the room view', 'right-start');
-    setTippy(audioBtn, 'Stop the audio', 'right-start');
-    setTippy(videoBtn, 'Stop the video', 'right-start');
-    setTippy(screenShareBtn, 'Start screen sharing', 'right-start');
-    setTippy(recordStreamBtn, 'Start recording', 'right-start');
-    setTippy(fullScreenBtn, 'View full screen', 'right-start');
-    setTippy(chatRoomBtn, 'Open the chat', 'right-start');
-    setTippy(captionBtn, 'Open the caption', 'right-start');
-    setTippy(myHandBtn, 'Raise your hand', 'right-start');
-    setTippy(whiteboardBtn, 'Open the whiteboard', 'right-start');
-    setTippy(fileShareBtn, 'Share file', 'right-start');
-    setTippy(mySettingsBtn, 'Open settings', 'right-start');
-    setTippy(aboutBtn, 'About this project', 'right-start');
-    setTippy(leaveRoomBtn, 'Leave this room', 'right-start');
+    setTippy(shareRoomBtn, 'Convidar outras pessoas para entrar', 'right-start');
+    setTippy(hideMeBtn, 'Alternar para me esconder da visualização da sala', 'right-start');
+    setTippy(audioBtn, 'Desabilitar Áudio', 'right-start');
+    setTippy(videoBtn, 'Desabilitar Video', 'right-start');
+    setTippy(screenShareBtn, 'Iniciar Compartilhamento de Tela', 'right-start');
+    setTippy(recordStreamBtn, 'Iniciar Gravação', 'right-start');
+    setTippy(fullScreenBtn, 'Ver em tela cheia', 'right-start');
+    setTippy(chatRoomBtn, 'Abrir Chat', 'right-start');
+    setTippy(captionBtn, 'Abra a legenda', 'right-start');
+    setTippy(myHandBtn, 'Levantar mão', 'right-start');
+    setTippy(whiteboardBtn, 'Quadro de Anotações', 'right-start');
+    setTippy(fileShareBtn, 'Compartilhar Arquivo', 'right-start');
+    setTippy(mySettingsBtn, 'Abrir Configurações', 'right-start');
+    setTippy(aboutBtn, 'Sobre este projeto', 'right-start');
+    setTippy(leaveRoomBtn, 'Sair da Sala', 'right-start');
     // chat room buttons
-    setTippy(msgerTheme, 'Ghost theme', 'top');
-    setTippy(msgerCPBtn, 'Private messages', 'top');
-    setTippy(msgerClean, 'Clean the messages', 'top');
-    setTippy(msgerSaveBtn, 'Save the messages', 'top');
-    setTippy(msgerClose, 'Close', 'right');
-    setTippy(msgerMaxBtn, 'Maximize', 'right');
-    setTippy(msgerMinBtn, 'Minimize', 'right');
+    setTippy(msgerTheme, 'Tema Transparente', 'top');
+    setTippy(msgerCPBtn, 'Mensagens privadas', 'top');
+    setTippy(msgerClean, 'Limpar as mensagens', 'top');
+    setTippy(msgerSaveBtn, 'Salvar as mensagens', 'top');
+    setTippy(msgerClose, 'Fechar', 'right');
+    setTippy(msgerMaxBtn, 'Maximizar', 'right');
+    setTippy(msgerMinBtn, 'Minimizar', 'right');
     setTippy(msgerEmojiBtn, 'Emoji', 'top');
     setTippy(msgerMarkdownBtn, 'Markdown', 'top');
     setTippy(msgerGPTBtn, 'ChatGPT', 'top');
-    setTippy(msgerShareFileBtn, 'Share file', 'top');
-    setTippy(msgerCleanTextBtn, 'Clean', 'top');
-    setTippy(msgerPasteBtn, 'Paste', 'top');
-    setTippy(msgerShowChatOnMsg, 'Show me when I receive a new message', 'top');
-    setTippy(msgerSendBtn, 'Send', 'top');
+    setTippy(msgerShareFileBtn, 'Compartilhar arquivo', 'top');
+    setTippy(msgerCleanTextBtn, 'Limpar', 'top');
+    setTippy(msgerPasteBtn, 'Colar', 'top');
+    setTippy(msgerShowChatOnMsg, 'Mostre-me quando eu receber uma nova mensagem', 'top');
+    setTippy(msgerSendBtn, 'Enviar', 'top');
     // chat participants buttons
-    setTippy(msgerCPCloseBtn, 'Close', 'left');
+    setTippy(msgerCPCloseBtn, 'Fechar', 'left');
     // caption buttons
-    setTippy(captionClose, 'Close', 'right');
-    setTippy(captionMaxBtn, 'Maximize', 'right');
-    setTippy(captionMinBtn, 'Minimize', 'right');
-    setTippy(captionTheme, 'Ghost theme', 'top');
-    setTippy(captionClean, 'Clean the messages', 'top');
-    setTippy(captionSaveBtn, 'Save the messages', 'top');
-    setTippy(speechRecognitionStart, 'Start', 'top');
-    setTippy(speechRecognitionStop, 'Stop', 'top');
+    setTippy(captionClose, 'Fechar', 'right');
+    setTippy(captionMaxBtn, 'Maximizar', 'right');
+    setTippy(captionMinBtn, 'Minimizar', 'right');
+    setTippy(captionTheme, 'Tema Transparente', 'top');
+    setTippy(captionClean, 'Limpar as mensagens', 'top');
+    setTippy(captionSaveBtn, 'Salvar as mensagens', 'top');
+    setTippy(speechRecognitionStart, 'Iniciar', 'top');
+    setTippy(speechRecognitionStop, 'Parar', 'top');
     // settings
-    setTippy(mySettingsCloseBtn, 'Close', 'right');
-    setTippy(myPeerNameSetBtn, 'Change name', 'top');
+    setTippy(mySettingsCloseBtn, 'Fechar', 'right');
+    setTippy(myPeerNameSetBtn, 'Mudar nome', 'top');
     setTippy(
         switchPushToTalk,
-        'If Active, When SpaceBar keydown the microphone will be activated, on keyup will be deactivated, like a walkie-talkie.',
-        'right',
+        'Se Ativo, ao pressionar a barra de espaço o microfone será ativado, ao pressionar será desativado, como um walkie-talkie.',
+        'certo!',
     );
-    setTippy(switchSounds, 'Toggle room notify sounds', 'right');
+    setTippy(switchSounds, 'Alternar os sons de notificação da sala', 'right');
     // tab btns
-    setTippy(tabDevicesBtn, 'Devices', 'top');
+    setTippy(tabDevicesBtn, 'Dispositivos', 'top');
     setTippy(tabBandwidthBtn, 'Bandwidth', 'top');
-    setTippy(tabRoomBtn, 'Room', 'top');
-    setTippy(tabStylingBtn, 'Styling', 'top');
-    setTippy(tabLanguagesBtn, 'Languages', 'top');
+    setTippy(tabRoomBtn, 'Sala', 'top');
+    setTippy(tabStylingBtn, 'Estilo', 'top');
+    setTippy(tabLanguagesBtn, 'Idiomas', 'top');
     // whiteboard btns
-    setTippy(wbDrawingColorEl, 'Drawing color', 'bottom');
-    setTippy(whiteboardGhostButton, 'Toggle transparent background', 'bottom');
-    setTippy(wbBackgroundColorEl, 'Background color', 'bottom');
-    setTippy(whiteboardPencilBtn, 'Drawing mode', 'bottom');
-    setTippy(whiteboardObjectBtn, 'Object mode', 'bottom');
-    setTippy(whiteboardUndoBtn, 'Undo', 'bottom');
-    setTippy(whiteboardRedoBtn, 'Redo', 'bottom');
-    setTippy(whiteboardImgFileBtn, 'Add image from file', 'bottom');
-    setTippy(whiteboardImgUrlBtn, 'Add image from URL', 'bottom');
-    setTippy(whiteboardTextBtn, 'Add the text', 'bottom');
-    setTippy(whiteboardLineBtn, 'Add the line', 'bottom');
-    setTippy(whiteboardRectBtn, 'Add the rectangle', 'bottom');
-    setTippy(whiteboardTriangleBtn, 'Add triangle', 'bottom');
-    setTippy(whiteboardCircleBtn, 'Add the circle', 'bottom');
-    setTippy(whiteboardSaveBtn, 'Save the board', 'bottom');
-    setTippy(whiteboardEraserBtn, 'Erase the object', 'bottom');
-    setTippy(whiteboardCleanBtn, 'Clean the board', 'bottom');
-    setTippy(whiteboardCloseBtn, 'Close', 'right');
+    setTippy(wbDrawingColorEl, 'Cor do desenho', 'bottom');
+    setTippy(whiteboardGhostButton, 'Ligar plano de fundo transparente', 'bottom');
+    setTippy(wbBackgroundColorEl, 'Cor de fundo', 'bottom');
+    setTippy(whiteboardPencilBtn, 'Modo de desenho', 'bottom');
+    setTippy(whiteboardObjectBtn, 'modo de objeto', 'bottom');
+    setTippy(whiteboardUndoBtn, 'Desfazer', 'bottom');
+    setTippy(whiteboardRedoBtn, 'Refazer', 'bottom');
+    setTippy(whiteboardImgFileBtn, 'Adicionar imagem', 'bottom');
+    setTippy(whiteboardImgUrlBtn, 'Adicionar imagem apartir de uma URL', 'bottom');
+    setTippy(whiteboardTextBtn, 'Adicionar Texto', 'bottom');
+    setTippy(whiteboardLineBtn, 'Adicionar linha', 'bottom');
+    setTippy(whiteboardRectBtn, 'Adicionar retângulo', 'bottom');
+    setTippy(whiteboardTriangleBtn, 'Adicionar triângulo', 'bottom');
+    setTippy(whiteboardCircleBtn, 'Adicionar círculo', 'bottom');
+    setTippy(whiteboardSaveBtn, 'Salvar o Quadro', 'bottom');
+    setTippy(whiteboardEraserBtn, 'Apague o objeto', 'bottom');
+    setTippy(whiteboardCleanBtn, 'Limpar o Quadro', 'bottom');
+    setTippy(whiteboardCloseBtn, 'Fechar', 'right');
     // room actions btn
     // setTippy(muteEveryoneBtn, 'Mute everyone except yourself', 'top');
     // setTippy(hideEveryoneBtn, 'Hide everyone except yourself', 'top');
     // setTippy(ejectEveryoneBtn, 'Eject everyone except yourself', 'top');
     // Suspend/Hide File transfer btn
-    setTippy(sendAbortBtn, 'Abort file transfer', 'right-start');
-    setTippy(receiveHideBtn, 'Hide file transfer', 'right-start');
+    setTippy(sendAbortBtn, 'Abortar transferência de arquivo', 'right-start');
+    setTippy(receiveHideBtn, 'Ocultar transferência de arquivo', 'right-start');
     // video URL player
-    setTippy(videoUrlCloseBtn, 'Close the video player', 'right-start');
-    setTippy(videoAudioCloseBtn, 'Close the video player', 'right-start');
-    setTippy(msgerVideoUrlBtn, 'Share a video or audio to all participants', 'top');
+    setTippy(videoUrlCloseBtn, 'Feche o reprodutor de vídeo', 'right-start');
+    setTippy(videoAudioCloseBtn, 'Feche o reprodutor de vídeo', 'right-start');
+    setTippy(msgerVideoUrlBtn, 'Compartilhe um vídeo ou áudio para todos os participantes', 'top');
 }
 
 /**
@@ -902,7 +902,7 @@ function initClientPeer() {
     setTheme(lsSettings.theme);
 
     if (!isWebRTCSupported) {
-        return userLog('error', 'This browser seems not supported WebRTC!');
+        return userLog('error', 'Este navegador parece não ser compatível com WebRTC!');
     }
 
     userAgent = navigator.userAgent.toLowerCase();
@@ -1173,11 +1173,11 @@ async function whoAreYou() {
         title: 'MiroTalk P2P',
         position: 'center',
         input: 'text',
-        inputPlaceholder: 'Enter your name',
+        inputPlaceholder: 'Qual o seu nome?',
         inputAttributes: { maxlength: 32 },
         inputValue: window.localStorage.peer_name ? window.localStorage.peer_name : '',
         html: initUser, // inject html
-        confirmButtonText: `Join meeting`,
+        confirmButtonText: `Entrar na Reunião`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -1185,7 +1185,7 @@ async function whoAreYou() {
             popup: 'animate__animated animate__fadeOutUp',
         },
         inputValidator: async (value) => {
-            if (!value) return 'Please enter your name';
+            if (!value) return 'Por favor, insira seu nome';
 
             // prevent xss execution itself
             myPeerName = filterXSS(value);
@@ -1193,12 +1193,12 @@ async function whoAreYou() {
             // prevent XSS injection to remote peer
             if (isHtml(myPeerName)) {
                 myPeerName = '';
-                return 'Invalid name!';
+                return 'Nome inválido!';
             }
 
             // check if peer name is already in use in the room
             if (await checkUserName()) {
-                return 'Username is already in use!';
+                return 'O nome de usuário já está em uso!';
             } else {
                 window.localStorage.peer_name = myPeerName;
                 whoAreYouJoin();
@@ -1243,8 +1243,8 @@ async function whoAreYou() {
         setMyAudioStatus(useAudio);
     }
 
-    setTippy(initAudioBtn, 'Stop the audio', 'top');
-    setTippy(initVideoBtn, 'Stop the video', 'top');
+    setTippy(initAudioBtn, 'Desabilitar áudio', 'top');
+    setTippy(initVideoBtn, 'Desabilitar o vídeo', 'top');
 }
 
 /**
@@ -1943,8 +1943,8 @@ async function initEnumerateDevices() {
             background: '#000000',
             position: 'center',
             imageUrl: camMicOff,
-            title: 'Camera and microphone not allowed',
-            text: "Meet needs access to the camera and microphone. Click the locked camera and microphone icon in your browser's address bar, before to join room.",
+            title: 'Câmera e microfone não permitidos',
+            text: "Para entrar na reunião, precisamos de acesso à câmera e ao microfone. Clique no ícone de câmera e microfone bloqueados na barra de endereço do navegador.",
             showDenyButton: false,
             confirmButtonText: `OK`,
             showClass: {
@@ -2123,10 +2123,10 @@ async function setupLocalMedia() {
             }
         }
     } catch (err) {
-        console.error('[Error] - Access denied for audio - video device', err);
+        console.error('[Erro] - Acesso negado para dispositivo de áudio - vídeo', err);
         playSound('alert');
         openURL(
-            `/permission?roomId=${roomId}&getUserMediaError=${err.toString()} <br/> Check the common getusermedia errors <a href="https://blog.addpipe.com/common-getusermedia-errors" target="_blank">here<a/>`,
+            `/permission?roomId=${roomId}&getUserMediaError=${err.toString()} <br/> Verifique os erros comuns de getusermedia <a href="https://blog.addpipe.com/common-getusermedia-errors" target="_blank">here<a/>`,
         );
     }
 } // end [setup_local_stream]
@@ -2211,16 +2211,16 @@ async function loadLocalMedia(stream) {
     myVideoPinBtn.className = className.pinUnpin;
 
     // no mobile devices
-    setTippy(myCountTime, 'Session Time', 'bottom');
-    setTippy(myPeerName, 'My name', 'bottom');
-    setTippy(myHandStatusIcon, 'My hand is raised', 'bottom');
-    setTippy(myPrivacyBtn, 'Toggle video privacy', 'bottom');
-    setTippy(myVideoStatusIcon, 'My video is on', 'bottom');
-    setTippy(myAudioStatusIcon, 'My audio is on', 'bottom');
-    setTippy(myVideoToImgBtn, 'Take a snapshot', 'bottom');
-    setTippy(myVideoFullScreenBtn, 'Full screen mode', 'bottom');
+    setTippy(myCountTime, 'Tempo de sessão', 'bottom');
+    setTippy(myPeerName, 'Meu nome', 'bottom');
+    setTippy(myHandStatusIcon, 'Sua mão está levantada', 'bottom');
+    setTippy(myPrivacyBtn, 'Alternar privacidade de vídeo', 'bottom');
+    setTippy(myVideoStatusIcon, 'Meu vídeo está ligado', 'bottom');
+    setTippy(myAudioStatusIcon, 'Meu áudio está ligado', 'bottom');
+    setTippy(myVideoToImgBtn, 'Tire uma foto instantânea', 'bottom');
+    setTippy(myVideoFullScreenBtn, 'Modo tela cheia', 'bottom');
     setTippy(myVideoZoomInBtn, 'Zoom in video', 'bottom');
-    setTippy(myVideoPiPBtn, 'Toggle picture in picture');
+    setTippy(myVideoPiPBtn, 'Ligar picture in picture');
     setTippy(myVideoZoomOutBtn, 'Zoom out video', 'bottom');
     setTippy(myVideoPinBtn, 'Toggle Pin video', 'bottom');
 
@@ -2479,17 +2479,17 @@ async function loadRemoteMediaStream(stream, peers, peer_id) {
     remoteVideoPinBtn.className = className.pinUnpin;
 
     // no mobile devices
-    setTippy(remotePeerName, 'Participant name', 'bottom');
-    setTippy(remoteHandStatusIcon, 'Participant hand is raised', 'bottom');
-    setTippy(remoteVideoStatusIcon, 'Participant video is on', 'bottom');
-    setTippy(remoteAudioStatusIcon, 'Participant audio is on', 'bottom');
+    setTippy(remotePeerName, 'Nome do participante', 'bottom');
+    setTippy(remoteHandStatusIcon, 'A mão do participante está levantada', 'bottom');
+    setTippy(remoteVideoStatusIcon, 'O vídeo do participante está ativado', 'bottom');
+    setTippy(remoteAudioStatusIcon, 'O áudio do participante está ativado', 'bottom');
     setTippy(remoteAudioVolume, '🔊 Volume', 'top-end');
-    setTippy(remoteVideoAudioUrlBtn, 'Send Video or Audio', 'bottom');
-    setTippy(remotePrivateMsgBtn, 'Send private message', 'bottom');
-    setTippy(remoteFileShareBtn, 'Send file', 'bottom');
-    setTippy(remoteVideoToImgBtn, 'Take a snapshot', 'bottom');
-    setTippy(remotePeerKickOut, 'Kick out', 'bottom');
-    setTippy(remoteVideoFullScreenBtn, 'Full screen mode', 'bottom');
+    setTippy(remoteVideoAudioUrlBtn, 'Enviar vídeo ou áudio', 'bottom');
+    setTippy(remotePrivateMsgBtn, 'Enviar mensagem privada', 'bottom');
+    setTippy(remoteFileShareBtn, 'Enviar arquivo', 'bottom');
+    setTippy(remoteVideoToImgBtn, 'Tire uma foto instantânea', 'bottom');
+    setTippy(remotePeerKickOut, 'Expulsar', 'bottom');
+    setTippy(remoteVideoFullScreenBtn, 'Modo tela cheia', 'bottom');
     setTippy(remoteVideoZoomInBtn, 'Zoom in video', 'bottom');
     setTippy(remoteVideoZoomOutBtn, 'Zoom out video', 'bottom');
     setTippy(remoteVideoPiPBtn, 'Toggle picture in picture');
@@ -2869,7 +2869,7 @@ function handleVideoPlayerFs(videoId, videoFullScreenBtnId, peer_id = null) {
     // on button click go on FS mobile/desktop
     videoFullScreenBtn.addEventListener('click', (e) => {
         if (videoPlayer.classList.contains('videoCircle')) {
-            return userLog('toast', 'Full Screen not allowed if video on privacy mode');
+            return userLog('toast', 'Tela cheia não permitida se o vídeo estiver no modo de privacidade');
         }
         gotoFS();
     });
@@ -2877,7 +2877,7 @@ function handleVideoPlayerFs(videoId, videoFullScreenBtnId, peer_id = null) {
     // on video click go on FS
     videoPlayer.addEventListener('click', (e) => {
         if (videoPlayer.classList.contains('videoCircle')) {
-            return userLog('toast', 'Full Screen not allowed if video on privacy mode');
+            return userLog('toast', 'Tela cheia não permitida se o vídeo estiver no modo de privacidade');
         }
         // not mobile on click go on FS or exit from FS
         if (!isMobileDevice) {
@@ -2908,7 +2908,7 @@ function handleVideoPlayerFs(videoId, videoFullScreenBtnId, peer_id = null) {
     }
 
     function showMsg() {
-        userLog('toast', 'Full screen mode work when video is on');
+        userLog('toast', 'O modo de tela cheia funciona quando o vídeo está ligado');
     }
 
     function handleFSVideo() {
@@ -2963,13 +2963,13 @@ function handleFileDragAndDrop(elemId, peer_id, itsMe = false) {
     videoPeer.addEventListener('drop', function (e) {
         e.preventDefault();
         if (itsMe) {
-            return userLog('warning', 'You cannot send files to yourself.');
+            return userLog('warning', 'Você não pode enviar arquivos para si mesmo.');
         }
         if (sendInProgress) {
-            return userLog('warning', 'Please wait for the previous file to be sent.');
+            return userLog('warning', 'Aguarde o envio do arquivo anterior.');
         }
         if (e.dataTransfer.items && e.dataTransfer.items.length > 1) {
-            return userLog('warning', 'Please drag and drop a single file.');
+            return userLog('warning', 'Arraste e solte um único arquivo.');
         }
         // Use DataTransferItemList interface to access the file(s)
         if (e.dataTransfer.items) {
@@ -2977,7 +2977,7 @@ function handleFileDragAndDrop(elemId, peer_id, itsMe = false) {
             let item = e.dataTransfer.items[0].webkitGetAsEntry();
             console.log('Drag and drop', item);
             if (item.isDirectory) {
-                return userLog('warning', 'Please drag and drop a single file not a folder.', 'top-end');
+                return userLog('warning', 'Arraste e solte um único arquivo, não uma pasta.', 'top-end');
             }
             let file = e.dataTransfer.items[0].getAsFile();
             sendFileInformations(file, peer_id);
@@ -3061,7 +3061,7 @@ function handleVideoPinUnpin(elemId, pnId, camId, peerId, isScreen = false) {
                 if (pinnedVideoPlayerId != videoPlayer.id) {
                     isVideoPinned = true;
                     if (isScreenEnabled) return;
-                    return userLog('toast', 'Another video seems pinned, unpin it before to pin this one', 5000);
+                    return userLog('toast', 'Outro vídeo parece fixado, desfixe-o antes de fixar este', 5000);
                 }
                 if (!isScreenStreaming) videoPlayer.style.objectFit = 'var(--video-object-fit)';
                 if (isScreen || videoPlayer.style.name == peerId + '_typeScreen')
@@ -3222,7 +3222,7 @@ function handleVideoToImg(videoStream, videoToImgBtn, peer_id = null) {
     let video = getId(videoStream);
     videoBtn.addEventListener('click', () => {
         if (video.classList.contains('videoCircle')) {
-            return userLog('toast', 'Snapshot not allowed if video on privacy mode');
+            return userLog('toast', 'Foto instântanea não permitida se o vídeo estiver no modo de privacidade');
         }
         if (peer_id !== null) {
             // handle remote video snapshot
@@ -3449,7 +3449,7 @@ function setFullScreenBtn() {
             if (!fullscreenElement) {
                 fullScreenBtn.className = className.fsOff;
                 isDocumentOnFullScreen = false;
-                setTippy(fullScreenBtn, 'View full screen', 'right-start');
+                setTippy(fullScreenBtn, 'Ver em tela cheia', 'right-start');
             }
         });
         fullScreenBtn.addEventListener('click', (e) => {
@@ -3491,7 +3491,7 @@ function setChatRoomBtn() {
     // show msger participants section
     msgerCPBtn.addEventListener('click', (e) => {
         if (!thereIsPeerConnections()) {
-            return userLog('info', 'No participants detected');
+            return userLog('info', 'Nenhum participante detectado');
         }
         msgerCP.style.display = 'flex';
     });
@@ -3506,7 +3506,7 @@ function setChatRoomBtn() {
         if (chatMessages.length != 0) {
             return cleanMessages();
         }
-        userLog('info', 'No chat messages to delete');
+        userLog('info', 'Nenhuma mensagem no bate-papo para excluir');
     });
 
     // save chat messages to file
@@ -3514,7 +3514,7 @@ function setChatRoomBtn() {
         if (chatMessages.length != 0) {
             return downloadChatMsgs();
         }
-        userLog('info', 'No chat messages to save');
+        userLog('info', 'Nenhuma mensagem de bate-papo para salvar');
     });
 
     // close chat room - show left button and status menu if hide
@@ -3650,7 +3650,7 @@ function setCaptionRoomBtn() {
             if (transcripts.length != 0) {
                 return cleanCaptions();
             }
-            userLog('info', 'No captions to delete');
+            userLog('info', 'Nenhuma legenda para excluir');
         });
 
         // save caption transcripts to file
@@ -3658,7 +3658,7 @@ function setCaptionRoomBtn() {
             if (transcripts.length != 0) {
                 return downloadCaptions();
             }
-            userLog('info', 'No captions to save');
+            userLog('info', 'Nenhuma legenda para salvar');
         });
 
         // close caption box - show left button and status menu if hide
@@ -3833,7 +3833,7 @@ function setMySettingsBtn() {
     // Sounds
     switchSounds.addEventListener('change', (e) => {
         notifyBySound = e.currentTarget.checked;
-        userLog('toast', `${icons.sounds} Notify & sounds ` + (notifyBySound ? 'ON' : 'OFF'));
+        userLog('toast', `${icons.sounds} Notificações & sons ` + (notifyBySound ? 'ATIVADOS' : 'DESATIVADOS'));
         playSound('switch');
     });
 
@@ -3843,14 +3843,14 @@ function setMySettingsBtn() {
         // Push to talk
         switchPushToTalk.addEventListener('change', (e) => {
             isPushToTalkActive = e.currentTarget.checked;
-            userLog('toast', `👆 Push to talk ` + (isPushToTalkActive ? 'ON' : 'OFF'));
+            userLog('toast', `👆 Pressionar para falar ` + (isPushToTalkActive ? 'ATIVADO' : 'DESATIVADO'));
             playSound('switch');
         });
     }
 
     switchAudioPitchBar.addEventListener('change', (e) => {
         isAudioPitchBar = e.currentTarget.checked;
-        userLog('toast', `${icons.pitchBar} Audio pitch bar ` + (isAudioPitchBar ? 'ON' : 'OFF'));
+        userLog('toast', `${icons.pitchBar} Audio pitch bar ` + (isAudioPitchBar ? 'ATIVADO' : 'DESATIVADO'));
         playSound('switch');
     });
 
@@ -4157,7 +4157,7 @@ function setLocalMaxFps(maxFrameRate) {
         })
         .catch((err) => {
             console.error('setLocalMaxFps', err);
-            userLog('error', "Your device doesn't support the selected fps, please select the another one.");
+            userLog('error', "Seu dispositivo não suporta o fps selecionado, selecione outro.");
         });
 }
 
@@ -4177,7 +4177,7 @@ async function setLocalVideoQuality() {
         .catch((err) => {
             videoQualitySelect.selectedIndex = videoQualitySelectedIndex;
             console.error('setLocalVideoQuality', err);
-            userLog('error', "Your device doesn't support the selected video quality, please select the another one.");
+            userLog('error', "Seu dispositivo não suporta a qualidade de vídeo selecionada, selecione outra.");
         });
 }
 
@@ -4210,7 +4210,7 @@ function attachSinkId(element, sinkId) {
                 audioOutputSelect.selectedIndex = 0;
             });
     } else {
-        console.warn('Browser does not support output device selection.');
+        console.warn('O navegador não suporta a seleção do dispositivo de saída.');
     }
 }
 
@@ -4293,7 +4293,7 @@ function handleError(err) {
         case 'OverconstrainedError':
             userLog(
                 'error',
-                "GetUserMedia: Your device doesn't support the selected video quality or fps, please select the another one.",
+                "GetUserMedia: Seu dispositivo não suporta a qualidade de vídeo ou fps selecionada, selecione outro.",
             );
             break;
         default:
@@ -4376,14 +4376,14 @@ async function shareRoomUrl() {
         try {
             // not add title and description to load metadata from url
             await navigator.share({ url: myRoomUrl });
-            userLog('toast', 'Room Shared successfully!');
+            userLog('toast', 'Reunião compartilhada com sucesso!');
         } catch (err) {
             /*
             This feature is available only in secure contexts (HTTPS),
             in some or all supporting browsers and mobile devices
             console.error("navigator.share", err); 
             */
-            console.error('Navigator share error', err);
+            console.error('Erro de compartilhamento do navegador', err);
 
             shareRoomMeetingURL();
         }
@@ -4401,22 +4401,22 @@ function shareRoomMeetingURL(checkScreen = false) {
     Swal.fire({
         background: swalBackground,
         position: 'center',
-        title: 'Share the room',
+        title: 'Compartilhe a Reunião',
         html: `
         <div id="qrRoomContainer">
             <canvas id="qrRoom"></canvas>
         </div>
         <br/>
-        <p style="color:rgb(8, 189, 89);">Join from your mobile device</p>
-        <p style="background:transparent; color:white; font-family: Arial, Helvetica, sans-serif;">No need for apps, simply capture the QR code with your mobile camera Or Invite someone else to join by sending them the following URL</p>
+        <p style="color:rgb(8, 189, 89);">Entre na reunião usando seu celular</p>
+        <p style="background:transparent; color:white; font-family: Arial, Helvetica, sans-serif;">Não há necessidade de baixar aplicativo, basta capturar o código QR com a câmera do seu celular ou convidar outra pessoa para participar enviando o seguinte link:</p>
         <p style="color:rgb(8, 189, 89);">${myRoomUrl}</p>`,
         showDenyButton: true,
         showCancelButton: true,
         cancelButtonColor: 'red',
         denyButtonColor: 'green',
-        confirmButtonText: `Copy URL`,
-        denyButtonText: `Email invite`,
-        cancelButtonText: `Close`,
+        confirmButtonText: `Copiar Link`,
+        denyButtonText: `Convidar por E-mail`,
+        cancelButtonText: `Fechar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -4429,8 +4429,8 @@ function shareRoomMeetingURL(checkScreen = false) {
         } else if (result.isDenied) {
             let message = {
                 email: '',
-                subject: 'Please join our MiroTalk Video Chat Meeting',
-                body: 'Click to join: ' + myRoomUrl,
+                subject: 'Participe da nossa reunião de bate-papo por vídeo',
+                body: 'Clicke para entrar: ' + myRoomUrl,
             };
             shareRoomByEmail(message);
         }
@@ -4467,7 +4467,7 @@ function copyRoomURL() {
     navigator.clipboard.writeText(tmpInput.value);
     console.log('Copied to clipboard Join Link ', roomURL);
     document.body.removeChild(tmpInput);
-    userLog('toast', 'Meeting URL copied to clipboard 👍');
+    userLog('toast', 'LINK da reunião copiado para a área de transferência 👍');
 }
 
 /**
@@ -4501,7 +4501,7 @@ function handleAudio(e, init, force = null) {
 
     if (init) {
         audioBtn.className = myAudioStatus ? className.audioOn : className.audioOff;
-        setTippy(initAudioBtn, myAudioStatus ? 'Stop the audio' : 'Start the audio', 'top');
+        setTippy(initAudioBtn, myAudioStatus ? 'Desabilitar áudio' : 'Habilitar áudio', 'top');
         getId('initMicrophoneSelect').disabled = !myAudioStatus;
         getId('initSpeakerSelect').disabled = !myAudioStatus;
     }
@@ -4530,7 +4530,7 @@ function handleVideo(e, init, force = null) {
 
     if (init) {
         initVideoBtn.className = myVideoStatus ? className.videoOn : className.videoOff;
-        setTippy(initVideoBtn, myVideoStatus ? 'Stop the video' : 'Start the video', 'top');
+        setTippy(initVideoBtn, myVideoStatus ? 'Desabilitar o vídeo' : 'Habilitar o vídeo', 'top');
         initVideo.style.display = myVideoStatus ? 'block' : 'none';
         initVideoSelect.disabled = !myVideoStatus;
     }
@@ -4565,7 +4565,7 @@ async function swapCamera() {
         }
     } catch (err) {
         console.log('[Error] to swapping camera', err);
-        userLog('error', 'Error to swapping the camera ' + err);
+        userLog('error', 'Erro ao trocar a câmera ' + err);
         // https://blog.addpipe.com/common-getusermedia-errors/
     }
 }
@@ -4659,9 +4659,9 @@ async function toggleScreenSharing(init = false) {
             if (isScreenStreaming || isVideoPinned) getId('myVideoPinBtn').click();
         }
     } catch (err) {
-        console.error('[Error] Unable to share the screen', err);
+        console.error('[Erro] Não é possível compartilhar a tela', err);
         if (init) return;
-        userLog('error', 'Unable to share the screen ' + err);
+        userLog('error', 'Não é possível compartilhar a tela ' + err);
     }
 }
 
@@ -4672,7 +4672,7 @@ async function toggleScreenSharing(init = false) {
 function setScreenSharingStatus(status) {
     initScreenShareBtn.className = status ? className.screenOff : className.screenOn;
     screenShareBtn.className = status ? className.screenOff : className.screenOn;
-    setTippy(screenShareBtn, status ? 'Stop screen sharing' : 'Start screen sharing', 'right-start');
+    setTippy(screenShareBtn, status ? 'Parar compartilhamento de tela' : 'Iniciar compartilhamento de tela', 'right-start');
 }
 
 /**
@@ -4689,8 +4689,8 @@ async function setMyVideoStatusTrue() {
     myVideoAvatarImage.style.display = 'none';
     emitPeerStatus('video', myVideoStatus);
     myVideo.style.display = 'block';
-    setTippy(videoBtn, 'Stop the video', 'right-start');
-    setTippy(initVideoBtn, 'Stop the video', 'top');
+    setTippy(videoBtn, 'Desabilitar o vídeo', 'right-start');
+    setTippy(initVideoBtn, 'Desabilitar o vídeo', 'top');
 }
 
 /**
@@ -4709,7 +4709,7 @@ function toggleFullScreen() {
             isDocumentOnFullScreen = false;
         }
     }
-    setTippy(fullScreenBtn, isDocumentOnFullScreen ? 'Exit full screen' : 'View full screen', 'right-start');
+    setTippy(fullScreenBtn, isDocumentOnFullScreen ? 'Sair da tela cheia' : 'Ver em tela cheia', 'right-start');
 }
 
 /**
@@ -4923,13 +4923,13 @@ function startStreamRecording() {
                     handleMediaRecorder(mediaRecorder);
                 })
                 .catch((err) => {
-                    console.error('[Error] Unable to recording the screen + audio', err);
-                    userLog('error', 'Unable to recording the screen + audio ' + err);
+                    console.error('[Error] Não é possível gravar a tela + áudio', err);
+                    userLog('error', 'Não é possível gravar a tela + áudio ' + err);
                 });
         }
     } catch (err) {
         console.error('Exception while creating MediaRecorder: ', err);
-        return userLog('error', "Can't start stream recording: " + err);
+        return userLog('error', "Não é possível iniciar a gravação do stream: " + err);
     }
 }
 
@@ -4975,7 +4975,7 @@ function handleMediaRecorderStart(event) {
     isStreamRecording = true;
     recordStreamBtn.style.setProperty('color', '#ff4500');
     startRecordingTime();
-    setTippy(recordStreamBtn, 'Stop recording', 'right-start');
+    setTippy(recordStreamBtn, 'Parar de gravar', 'right-start');
     if (isMobileDevice) {
         swapCameraBtn.style.display = 'none';
     }
@@ -5010,7 +5010,7 @@ function handleMediaRecorderStop(event) {
     }
     recordStreamBtn.style.setProperty('color', '#000');
     downloadRecordedStream();
-    setTippy(recordStreamBtn, 'Start recording', 'right-start');
+    setTippy(recordStreamBtn, 'Começe a gravar', 'right-start');
     if (isMobileDevice) {
         swapCameraBtn.style.display = 'block';
     }
@@ -5031,25 +5031,25 @@ function downloadRecordedStream() {
         const type = recordedBlobs[0].type.includes('mp4') ? 'mp4' : 'webm';
         const blob = new Blob(recordedBlobs, { type: 'video/' + type });
         const recFileName = getDataTimeString() + '-REC.' + type;
-        const currentDevice = isMobileDevice ? 'MOBILE' : 'PC';
+        const currentDevice = isMobileDevice ? 'celular' : 'computador';
         const blobFileSize = bytesToSize(blob.size);
 
         userLog(
             'success-html',
             `<div style="text-align: left;">
-                🔴 &nbsp; Recording Info: <br/>
+                🔴 &nbsp; Informações da gravação: <br/>
                 <ul>
-                    <li>File: ${recFileName}</li>
-                    <li>Size: ${blobFileSize}</li>
+                    <li>Arquivo: ${recFileName}</li>
+                    <li>Tamanho: ${blobFileSize}</li>
                 </ul>
                 <br/>
-                Please wait to be processed, then will be downloaded to your ${currentDevice} device.
+                Por favor, aguarde para ser processado, então será baixado para em seu ${currentDevice}.
             </div>`,
         );
 
         saveBlobToFile(blob, recFileName);
     } catch (err) {
-        userLog('error', 'Recording save failed: ' + err);
+        userLog('error', 'Falha ao salvar a gravação: ' + err);
     }
 }
 
@@ -5097,7 +5097,7 @@ function showChatRoomDraggable() {
     msgerDraggable.style.left = isMobileDevice ? '50%' : '25%';
     msgerDraggable.style.display = 'flex';
     isChatRoomVisible = true;
-    setTippy(chatRoomBtn, 'Close the chat', 'right-start');
+    setTippy(chatRoomBtn, 'Fechar o chat', 'right-start');
 }
 
 /**
@@ -5114,7 +5114,7 @@ function showCaptionDraggable() {
     captionDraggable.style.left = isMobileDevice ? '50%' : '75%';
     captionDraggable.style.display = 'flex';
     isCaptionBoxVisible = true;
-    setTippy(captionBtn, 'Close the caption', 'right-start');
+    setTippy(captionBtn, 'Feche a legenda', 'right-start');
 }
 
 /**
@@ -5185,11 +5185,11 @@ function cleanMessages() {
     Swal.fire({
         background: swalBackground,
         position: 'center',
-        title: 'Clean up chat messages?',
+        title: 'Limpar as mensagens do bate-papo?',
         imageUrl: deleteImg,
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -5255,7 +5255,7 @@ function hideChatRoomAndEmojiPicker() {
     chatRoomBtn.className = className.chatOn;
     isChatRoomVisible = false;
     isChatEmojiVisible = false;
-    setTippy(chatRoomBtn, 'Open the chat', 'right-start');
+    setTippy(chatRoomBtn, 'Abrir o chat', 'right-start');
 }
 
 /**
@@ -5265,7 +5265,7 @@ function hideCaptionBox() {
     captionDraggable.style.display = 'none';
     captionBtn.className = className.captionOn;
     isCaptionBoxVisible = false;
-    setTippy(captionBtn, 'Open the caption', 'right-start');
+    setTippy(captionBtn, 'Abrir as legendas', 'right-start');
 }
 
 /**
@@ -5275,7 +5275,7 @@ async function sendChatMessage() {
     if (!thereIsPeerConnections() && !isChatGPTOn) {
         cleanMessageInput();
         isChatPasteTxt = false;
-        return userLog('info', "Can't send message, no participants in the room");
+        return userLog('info', "Não é possível enviar mensagem, pois não há participantes na reunião");
     }
 
     msgerInput.value = filterXSS(msgerInput.value.trim());
@@ -5326,7 +5326,7 @@ function handleDataChannelChat(dataMessage) {
     }
     // show message from
     if (!showChatOnMessage) {
-        userLog('toast', `New message from: ${msgFrom}`);
+        userLog('toast', `Nova mensagem de: ${msgFrom}`);
     }
 
     playSound('chatMessage');
@@ -5484,9 +5484,9 @@ function appendMessage(from, img, side, msg, privateMsg, msgId = null) {
     `;
     msgerChat.insertAdjacentHTML('beforeend', msgHTML);
     msgerChat.scrollTop += 500;
-    setTippy(getId('msg-delete-' + chatMessagesId), 'Delete', 'top');
-    setTippy(getId('msg-copy-' + chatMessagesId), 'Copy', 'top');
-    setTippy(getId('msg-private-reply-' + chatMessagesId), 'Reply', 'top');
+    setTippy(getId('msg-delete-' + chatMessagesId), 'Apagar', 'top');
+    setTippy(getId('msg-copy-' + chatMessagesId), 'Copiar', 'top');
+    setTippy(getId('msg-private-reply-' + chatMessagesId), 'Responder', 'top');
     chatMessagesId++;
 }
 
@@ -5499,11 +5499,11 @@ function deleteMessage(id) {
     Swal.fire({
         background: swalBackground,
         position: 'center',
-        title: 'Delete this messages?',
+        title: 'Excluir esta mensagem?',
         imageUrl: deleteImg,
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -5528,7 +5528,7 @@ function copyToClipboard(id) {
     navigator.clipboard
         .writeText(text)
         .then(() => {
-            msgPopup('success', 'Message copied!', 'top-end', 1000);
+            msgPopup('success', 'Mensagem copiada!', 'top-end', 1000);
         })
         .catch((err) => {
             msgPopup('error', err, 'top-end', 2000);
@@ -5558,7 +5558,7 @@ async function msgerAddPeers(peers) {
                         cols="1"
                         id="${peer_id}_pMsgInput"
                         class="msger-input"
-                        placeholder="Write private message..."
+                        placeholder="Escreva uma mensagem privada..."
                     ></textarea>
                     <button id="${peer_id}_pMsgBtn" class="${className.msgPrivate}" value="${peer_name}"></button>
                 </div>
@@ -6005,7 +6005,7 @@ async function updateMyPeerName() {
     // check if peer name is already in use in the room
     if (await checkUserName(myPeerNameSet.value)) {
         myPeerNameSet.value = '';
-        return userLog('warning', 'Username is already in use!');
+        return userLog('warning', 'O nome de usuário já está em uso!');
     }
 
     // prevent xss execution itself
@@ -6014,7 +6014,7 @@ async function updateMyPeerName() {
     // prevent XSS injection to remote peer
     if (isHtml(myPeerNameSet.value)) {
         myPeerNameSet.value = '';
-        return userLog('warning', 'Invalid name!');
+        return userLog('warning', 'Nome inválido!');
     }
 
     const myNewPeerName = myPeerNameSet.value;
@@ -6036,7 +6036,7 @@ async function updateMyPeerName() {
 
     setPeerAvatarImgName('myVideoAvatarImage', myPeerName);
     setPeerChatAvatarImgName('right', myPeerName);
-    userLog('toast', 'My name changed to ' + myPeerName);
+    userLog('toast', 'Meu nome mudou para ' + myPeerName);
 }
 
 /**
@@ -6095,11 +6095,11 @@ function setMyHandStatus() {
     if (myHandStatus) {
         // Raise hand
         myHandStatus = false;
-        setTippy(myHandBtn, 'Raise your hand', 'right-start');
+        setTippy(myHandBtn, 'Levantar mão', 'right-start');
     } else {
         // Lower hand
         myHandStatus = true;
-        setTippy(myHandBtn, 'Lower your hand', 'right-start');
+        setTippy(myHandBtn, 'Abaixar mão', 'right-start');
         playSound('raiseHand');
     }
     myHandStatusIcon.style.display = myHandStatus ? 'inline' : 'none';
@@ -6114,8 +6114,8 @@ function setMyAudioStatus(status) {
     myAudioStatusIcon.className = status ? className.audioOn : className.audioOff;
     // send my audio status to all peers in the room
     emitPeerStatus('audio', status);
-    setTippy(myAudioStatusIcon, status ? 'My audio is on' : 'My audio is off', 'bottom');
-    setTippy(audioBtn, status ? 'Stop the audio' : 'Start the audio', 'right-start');
+    setTippy(myAudioStatusIcon, status ? 'Meu áudio está ligado' : 'Meu áudio está desligado', 'bottom');
+    setTippy(audioBtn, status ? 'Desabilitar áudio' : 'Habilitar áudio', 'right-start');
     status ? playSound('on') : playSound('off');
     console.log('My audio status', status);
 }
@@ -6131,12 +6131,12 @@ function setMyVideoStatus(status) {
     // send my video status to all peers in the room
     emitPeerStatus('video', status);
     if (!isMobileDevice) {
-        if (myVideoStatusIcon) setTippy(myVideoStatusIcon, status ? 'My video is on' : 'My video is off', 'bottom');
-        setTippy(videoBtn, status ? 'Stop the video' : 'Start the video', 'right-start');
+        if (myVideoStatusIcon) setTippy(myVideoStatusIcon, status ? 'Meu vídeo está ligado' : 'Meu vídeo está desligado', 'bottom');
+        setTippy(videoBtn, status ? 'Desabilitar o vídeo' : 'Habilitar o vídeo', 'right-start');
     }
     myVideo.style.display = status ? 'block' : 'none';
     status ? playSound('on') : playSound('off');
-    console.log('My video status', status);
+    console.log('Status do meu vídeo', status);
 }
 
 /**
@@ -6173,7 +6173,7 @@ function setPeerHandStatus(peer_id, peer_name, status) {
     let peerHandStatus = getId(peer_id + '_handStatus');
     peerHandStatus.style.display = status ? 'inline' : 'none';
     if (status) {
-        userLog('toast', `${icons.user} ${peer_name} \n has raised the hand!`);
+        userLog('toast', `${icons.user} ${peer_name} \n levantou a mão!`);
         playSound('raiseHand');
     }
 }
@@ -6187,7 +6187,7 @@ function setPeerAudioStatus(peer_id, status) {
     let peerAudioStatus = getId(peer_id + '_audioStatus');
     if (peerAudioStatus) {
         peerAudioStatus.className = status ? className.audioOn : className.audioOff;
-        setTippy(peerAudioStatus, status ? 'Participant audio is on' : 'Participant audio is off', 'bottom');
+        setTippy(peerAudioStatus, status ? 'O áudio do participante está ativado' : 'O áudio do participante está desativado', 'bottom');
         status ? playSound('on') : playSound('off');
     }
 }
@@ -6258,10 +6258,10 @@ function sendPrivateMsgToPeer(toPeerId, toPeerName) {
         background: swalBackground,
         position: 'center',
         imageUrl: messageImg,
-        title: 'Send private message',
+        title: 'Enviar mensagem privada',
         input: 'text',
         showCancelButton: true,
-        confirmButtonText: `Send`,
+        confirmButtonText: `Enviar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -6281,10 +6281,10 @@ function sendPrivateMsgToPeer(toPeerId, toPeerName) {
                 myPeerName,
                 rightChatAvatar,
                 'right',
-                pMsg + '<br/><hr>Private message to ' + toPeerName,
+                pMsg + '<br/><hr>Mensagem privada para ' + toPeerName,
                 true,
             );
-            userLog('toast', 'Message sent to ' + toPeerName + ' 👍');
+            userLog('toast', 'Mensagem enviada para ' + toPeerName + ' 👍');
         }
     });
 }
@@ -6324,7 +6324,7 @@ function setPeerVideoStatus(peer_id, status) {
     if (peerVideoAvatarImage) peerVideoAvatarImage.style.display = status ? 'none' : 'block';
     if (peerVideoStatus) {
         peerVideoStatus.className = status ? className.videoOn : className.videoOff;
-        setTippy(peerVideoStatus, status ? 'Participant video is on' : 'Participant video is off', 'bottom');
+        setTippy(peerVideoStatus, status ? 'O vídeo do participante está ativado' : 'O vídeo do participante está desativado', 'bottom');
         status ? playSound('on') : playSound('off');
     }
 }
@@ -6461,7 +6461,7 @@ function setMyAudioOff(peer_name) {
     myAudioStatus = localMediaStream.getAudioTracks()[0].enabled;
     audioBtn.className = className.audioOff;
     setMyAudioStatus(myAudioStatus);
-    userLog('toast', `${icons.user} ${peer_name} \n has disabled your audio`);
+    userLog('toast', `${icons.user} ${peer_name} \n desativou o seu áudio`);
     playSound('off');
 }
 
@@ -6475,7 +6475,7 @@ function setMyAudioOn(peer_name) {
     myAudioStatus = localMediaStream.getAudioTracks()[0].enabled;
     audioBtn.className = className.audioOn;
     setMyAudioStatus(myAudioStatus);
-    userLog('toast', `${icons.user} ${peer_name} \n has enabled your audio`);
+    userLog('toast', `${icons.user} ${peer_name} \n habilitou o seu áudio`);
     playSound('on');
 }
 
@@ -6500,7 +6500,7 @@ function setMyVideoOff(peer_name) {
  */
 function disableAllPeers(element) {
     if (!thereIsPeerConnections()) {
-        return userLog('info', 'No participants detected');
+        return userLog('info', 'Nenhum participante detectado');
     }
     Swal.fire({
         background: swalBackground,
@@ -6513,7 +6513,7 @@ function disableAllPeers(element) {
                 : "Once hided, you won't be able to unhide them, but they can unhide themselves at any time.",
         showDenyButton: true,
         confirmButtonText: element == 'audio' ? `Mute` : `Hide`,
-        denyButtonText: `Cancel`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -6524,11 +6524,11 @@ function disableAllPeers(element) {
         if (result.isConfirmed) {
             switch (element) {
                 case 'audio':
-                    userLog('toast', 'Mute everyone 👍');
+                    userLog('toast', 'Silenciar todos 👍');
                     emitPeersAction('muteAudio');
                     break;
                 case 'video':
-                    userLog('toast', 'Hide everyone 👍');
+                    userLog('toast', 'Esconder todos 👍');
                     emitPeersAction('hideVideo');
                     break;
             }
@@ -6541,7 +6541,7 @@ function disableAllPeers(element) {
  */
 function ejectEveryone() {
     if (!thereIsPeerConnections()) {
-        return userLog('info', 'No participants detected');
+        return userLog('info', 'Nenhum participante detectado');
     }
     Swal.fire({
         background: swalBackground,
@@ -6572,20 +6572,20 @@ function ejectEveryone() {
  */
 function disablePeer(peer_id, element) {
     if (!thereIsPeerConnections()) {
-        return userLog('info', 'No participants detected');
+        return userLog('info', 'Nenhum participante detectado');
     }
     Swal.fire({
         background: swalBackground,
         position: 'center',
         imageUrl: element == 'audio' ? audioOffImg : camOffImg,
-        title: element == 'audio' ? 'Mute this participant?' : 'Hide this participant?',
+        title: element == 'audio' ? 'Silenciar este participante?' : 'Ocultar este participante?',
         text:
             element == 'audio'
-                ? "Once muted, you won't be able to unmute them, but they can unmute themselves at any time."
-                : "Once hided, you won't be able to unhide them, but they can unhide themselves at any time.",
+                ? "Uma vez silenciado, você não poderá ativá-los, mas eles podem ativar o som a qualquer momento."
+                : "Uma vez ocultos, você não poderá mostrá-los, mas eles podem se mostrar a qualquer momento.",
         showDenyButton: true,
-        confirmButtonText: element == 'audio' ? `Mute` : `Hide`,
-        denyButtonText: `Cancel`,
+        confirmButtonText: element == 'audio' ? `Silenciar` : `Ocultar`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -6596,11 +6596,11 @@ function disablePeer(peer_id, element) {
         if (result.isConfirmed) {
             switch (element) {
                 case 'audio':
-                    userLog('toast', 'Mute audio 👍');
+                    userLog('toast', 'Silenciar audio 👍');
                     emitPeerAction(peer_id, 'muteAudio');
                     break;
                 case 'video':
-                    userLog('toast', 'Hide video 👍');
+                    userLog('toast', 'Ocultar video 👍');
                     emitPeerAction(peer_id, 'hideVideo');
                     break;
             }
@@ -6635,9 +6635,9 @@ function handleRoomAction(config, emit = false) {
                     background: swalBackground,
                     imageUrl: roomLockedImg,
                     input: 'text',
-                    inputPlaceholder: 'Set Room password',
+                    inputPlaceholder: 'Definir senha da sala',
                     confirmButtonText: `OK`,
-                    denyButtonText: `Cancel`,
+                    denyButtonText: `CANCELAR`,
                     showClass: {
                         popup: 'animate__animated animate__fadeInDown',
                     },
@@ -6645,7 +6645,7 @@ function handleRoomAction(config, emit = false) {
                         popup: 'animate__animated animate__fadeOutUp',
                     },
                     inputValidator: (pwd) => {
-                        if (!pwd) return 'Please enter the Room password';
+                        if (!pwd) return 'Por favor, digite a senha da sala';
                         thisRoomPassword = pwd;
                     },
                 }).then((result) => {
@@ -6893,10 +6893,10 @@ function whiteboardAddObj(type) {
         case 'imgUrl':
             Swal.fire({
                 background: swalBackground,
-                title: 'Image URL',
+                title: 'Link da URL',
                 input: 'text',
                 showCancelButton: true,
-                confirmButtonText: 'OK',
+                confirmButtonText: 'Adicionar',
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
                 },
@@ -6911,7 +6911,7 @@ function whiteboardAddObj(type) {
                             addWbCanvasObj(myImg);
                         });
                     } else {
-                        userLog('error', 'The URL is not a valid image');
+                        userLog('error', 'A URL não é uma imagem válida');
                     }
                 }
             });
@@ -6921,15 +6921,15 @@ function whiteboardAddObj(type) {
                 allowOutsideClick: false,
                 background: swalBackground,
                 position: 'center',
-                title: 'Select image',
+                title: 'Selecione a imagem',
                 input: 'file',
                 inputAttributes: {
                     accept: wbImageInput,
-                    'aria-label': 'Select image',
+                    'aria-label': 'Selecione a imagem',
                 },
                 showDenyButton: true,
-                confirmButtonText: `OK`,
-                denyButtonText: `Cancel`,
+                confirmButtonText: `Confirmar`,
+                denyButtonText: `Cancelar`,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
                 },
@@ -6952,7 +6952,7 @@ function whiteboardAddObj(type) {
                         };
                         reader.readAsDataURL(wbCanvasImg);
                     } else {
-                        userLog('error', 'File not selected or empty');
+                        userLog('error', 'Arquivo não selecionado ou vazio');
                     }
                 }
             });
@@ -7209,11 +7209,11 @@ function confirmCleanBoard() {
         background: swalBackground,
         imageUrl: deleteImg,
         position: 'center',
-        title: 'Clean the board',
-        text: 'Are you sure you want to clean the board?',
+        title: 'Limpe o quadro',
+        text: 'Tem certeza de que deseja limpar o quadro?',
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -7248,7 +7248,7 @@ function handleWhiteboardAction(config, logMe = true) {
     const { peer_name, action, color } = config;
 
     if (logMe) {
-        userLog('toast', `${icons.user} ${peer_name} \n whiteboard action: ${action}`);
+        userLog('toast', `${icons.user} ${peer_name} \n ação do quadro de anotações: ${action}`);
     }
     switch (action) {
         case 'bgcolor':
@@ -7315,13 +7315,13 @@ function sendFileData(peer_id, broadcast) {
     sendInProgress = true;
 
     sendFileInfo.innerText =
-        'File name: ' +
+        'Nome do arquivo: ' +
         fileToSend.name +
         '\n' +
-        'File type: ' +
+        'Tipo de arquivo: ' +
         fileToSend.type +
         '\n' +
-        'File size: ' +
+        'Tamanho do arquivo: ' +
         bytesToSize(fileToSend.size) +
         '\n';
 
@@ -7345,13 +7345,13 @@ function sendFileData(peer_id, broadcast) {
         offset += data.fileData.byteLength;
 
         sendProgress.value = offset;
-        sendFilePercentage.innerText = 'Send progress: ' + ((offset / fileToSend.size) * 100).toFixed(2) + '%';
+        sendFilePercentage.innerText = 'Progresso de envio: ' + ((offset / fileToSend.size) * 100).toFixed(2) + '%';
 
         // send file completed
         if (offset === fileToSend.size) {
             sendInProgress = false;
             sendFileDiv.style.display = 'none';
-            userLog('success', 'The file ' + fileToSend.name + ' was sent successfully.');
+            userLog('Sucesso', 'O arquivo ' + fileToSend.name + ' foi enviado com sucesso!');
         }
 
         if (offset < fileToSend.size) readSlice(offset);
@@ -7419,8 +7419,8 @@ function handleFileAbort() {
     receivedSize = 0;
     receiveInProgress = false;
     receiveFileDiv.style.display = 'none';
-    console.log('File transfer aborted');
-    userLog('toast', '⚠️ File transfer aborted');
+    console.log('Transferência de arquivo cancelada');
+    userLog('toast', '⚠️ Transferência de arquivo cancelada');
 }
 
 /**
@@ -7444,15 +7444,15 @@ function selectFileToShare(peer_id, broadcast = false) {
         imageAlt: 'mirotalk-file-sharing',
         imageUrl: fileSharingImg,
         position: 'center',
-        title: 'Share file',
+        title: 'Compartilhar Arquivo',
         input: 'file',
         inputAttributes: {
             accept: fileSharingInput,
             'aria-label': 'Select file',
         },
         showDenyButton: true,
-        confirmButtonText: `Send`,
-        denyButtonText: `Cancel`,
+        confirmButtonText: `Enviar`,
+        denyButtonText: `Cancelar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -7479,12 +7479,12 @@ function sendFileInformations(file, peer_id, broadcast = false) {
     if (fileToSend && fileToSend.size > 0) {
         // no peers in the room
         if (!thereIsPeerConnections()) {
-            return userLog('info', 'No participants detected');
+            return userLog('info', 'Nenhum participante detectado');
         }
 
         // prevent XSS injection to remote peer (fileToSend.name is read only)
         if (isHtml(fileToSend.name) || !isValidFileName(fileToSend.name))
-            return userLog('warning', 'Invalid file name!');
+            return userLog('warning', 'Nome de arquivo inválido!');
 
         const fileInfo = {
             room_id: roomId,
@@ -7503,11 +7503,11 @@ function sendFileInformations(file, peer_id, broadcast = false) {
             myPeerName,
             rightChatAvatar,
             'right',
-            `${icons.fileSend} File send: 
+            `${icons.fileSend} Envio de arquivo: 
             <br/> 
             <ul>
-                <li>Name: ${fileToSend.name}</li>
-                <li>Size: ${bytesToSize(fileToSend.size)}</li>
+                <li>Nome: ${fileToSend.name}</li>
+                <li>Tamanho: ${bytesToSize(fileToSend.size)}</li>
             </ul>`,
             false,
         );
@@ -7520,7 +7520,7 @@ function sendFileInformations(file, peer_id, broadcast = false) {
             sendFileData(peer_id, broadcast);
         }, 1000);
     } else {
-        userLog('error', 'File dragged not valid or empty.');
+        userLog('error', 'Arquivo arrastado inválido ou vazio.');
     }
 }
 
@@ -7543,16 +7543,16 @@ function handleFileInfo(config) {
     receiveBuffer = [];
     receivedSize = 0;
     let fileToReceiveInfo =
-        'From: ' +
+        'De: ' +
         incomingFileInfo.peer_name +
         '\n' +
-        'Incoming file: ' +
+        'Arquivo recebido: ' +
         incomingFileInfo.file.fileName +
         '\n' +
-        'File size: ' +
+        'Tamanho do arquivo: ' +
         bytesToSize(incomingFileInfo.file.fileSize) +
         '\n' +
-        'File type: ' +
+        'Tipo de arquivo: ' +
         incomingFileInfo.file.fileType;
     console.log(fileToReceiveInfo);
     // generate chat avatar by peer_name
@@ -7562,12 +7562,12 @@ function handleFileInfo(config) {
         incomingFileInfo.peer_name,
         leftChatAvatar,
         'left',
-        `${icons.fileReceive} File receive: 
+        `${icons.fileReceive} Arquivo recebido: 
         <br/> 
         <ul>
-            <li>From: ${incomingFileInfo.peer_name}</li>
-            <li>Name: ${incomingFileInfo.file.fileName}</li>
-            <li>Size: ${bytesToSize(incomingFileInfo.file.fileSize)}</li>
+            <li>De: ${incomingFileInfo.peer_name}</li>
+            <li>Nome: ${incomingFileInfo.file.fileName}</li>
+            <li>Tamanho: ${bytesToSize(incomingFileInfo.file.fileSize)}</li>
         </ul>`,
         !incomingFileInfo.broadcast,
         incomingFileInfo.peer_id,
@@ -7600,13 +7600,13 @@ function endDownload() {
                 allowOutsideClick: false,
                 background: swalBackground,
                 position: 'center',
-                title: 'Received file',
+                title: 'Arquivo recebido',
                 text: incomingFileInfo.file.fileName + ' size ' + bytesToSize(incomingFileInfo.file.fileSize),
                 imageUrl: e.target.result,
                 imageAlt: 'mirotalk-file-img-download',
                 showDenyButton: true,
-                confirmButtonText: `Save`,
-                denyButtonText: `Cancel`,
+                confirmButtonText: `Salvar`,
+                denyButtonText: `Cancelar`,
                 showClass: {
                     popup: 'animate__animated animate__fadeInDown',
                 },
@@ -7627,11 +7627,11 @@ function endDownload() {
             imageAlt: 'mirotalk-file-download',
             imageUrl: fileSharingImg,
             position: 'center',
-            title: 'Received file',
-            text: incomingFileInfo.file.fileName + ' size ' + bytesToSize(incomingFileInfo.file.fileSize),
+            title: 'Arquivo recebido',
+            text: incomingFileInfo.file.fileName + ' tamanho ' + bytesToSize(incomingFileInfo.file.fileSize),
             showDenyButton: true,
-            confirmButtonText: `Save`,
-            denyButtonText: `Cancel`,
+            confirmButtonText: `Salvar`,
+            denyButtonText: `Cancelar`,
             showClass: {
                 popup: 'animate__animated animate__fadeInDown',
             },
@@ -7675,11 +7675,11 @@ function sendVideoUrl(peer_id = null) {
         background: swalBackground,
         position: 'center',
         imageUrl: videoAudioShare,
-        title: 'Share a Video or Audio',
-        text: 'Paste a Video or audio URL',
+        title: 'Compartilhar um vídeo ou áudio',
+        text: 'Cole um LINK de vídeo ou áudio',
         input: 'text',
         showCancelButton: true,
-        confirmButtonText: `Share`,
+        confirmButtonText: `Compartilhar`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -7690,16 +7690,16 @@ function sendVideoUrl(peer_id = null) {
         if (result.value) {
             result.value = filterXSS(result.value);
             if (!thereIsPeerConnections()) {
-                return userLog('info', 'No participants detected');
+                return userLog('info', 'Nome de arquivo inválido!');
             }
-            console.log('Video URL: ' + result.value);
+            console.log('LINK do vídeo: ' + result.value);
             /*
                 https://www.youtube.com/watch?v=RT6_Id5-7-s
                 http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
                 https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3
             */
             if (!isVideoTypeSupported(result.value)) {
-                return userLog('warning', 'Something wrong, try with another Video or audio URL');
+                return userLog('warning', 'Algo errado, tente com outro LINK de vídeo ou áudio');
             }
             const is_youtube = getVideoType(result.value) == 'na' ? true : false;
             const video_url = is_youtube ? getYoutubeEmbed(result.value) : result.value;
@@ -7717,11 +7717,11 @@ function sendVideoUrl(peer_id = null) {
  * Open video url Player
  */
 function openVideoUrlPlayer(config) {
-    console.log('Open video Player', config);
+    console.log('Abra o reprodutor de vídeo', config);
     const videoSrc = config.video_src;
     const videoType = getVideoType(videoSrc);
     const videoEmbed = getYoutubeEmbed(videoSrc);
-    console.log('Video embed', videoEmbed);
+    console.log('Vídeo incorporado', videoEmbed);
     //
     if (!isVideoUrlPlayerOpen) {
         if (videoEmbed) {
@@ -7831,11 +7831,11 @@ function handleVideoPlayer(config) {
     //
     switch (video_action) {
         case 'open':
-            userLog('toast', `${icons.user} ${peer_name} \n open video player`);
+            userLog('toast', `${icons.user} ${peer_name} \n Abriu o reprodutor de vídeo`);
             openVideoUrlPlayer(config);
             break;
         case 'close':
-            userLog('toast', `${icons.user} ${peer_name} \n close video player`);
+            userLog('toast', `${icons.user} ${peer_name} \n fechou o reprodutor de vídeo`);
             closeVideoUrlPlayer();
             break;
     }
@@ -7864,11 +7864,11 @@ function kickOut(peer_id) {
         background: swalBackground,
         position: 'center',
         imageUrl: confirmImg,
-        title: 'Kick out ' + pName,
-        text: 'Are you sure you want to kick out this participant?',
+        title: 'Expulsar ' + pName,
+        text: 'Tem certeza de que deseja expulsar este participante?',
         showDenyButton: true,
-        confirmButtonText: `Yes`,
-        denyButtonText: `No`,
+        confirmButtonText: `Sim`,
+        denyButtonText: `Não`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },
@@ -7906,12 +7906,12 @@ function handleKickedOut(config) {
         background: swalBackground,
         position: 'center',
         imageUrl: kickedOutImg,
-        title: 'Kicked out!',
+        title: 'Até mais!',
         html:
             `<h2 style="color: #FF2D00;">` +
             `User ` +
             peer_name +
-            `</h2> will kick out you after <b style="color: #FF2D00;"></b> milliseconds.`,
+            `</h2> Você sairá da Reunião em <b style="color: #FF2D00;"></b> milissegundos.`,
         timer: 5000,
         timerProgressBar: true,
         didOpen: () => {

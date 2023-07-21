@@ -80,7 +80,7 @@
                                                     id="username"
                                                     class="form-input"
                                                     type="name"
-                                                    placeholder="Username"
+                                                    placeholder="Usuário"
                                                     maxlength="32"
                                                     style="border-radius: 6px"
                                                     required
@@ -94,7 +94,7 @@
                                                     type="password"
                                                     maxlength="32"
                                                     style="border-radius: 6px"
-                                                    placeholder="Password"
+                                                    placeholder="Senha"
                                                     required
                                                 />
                                             </div>
@@ -103,7 +103,7 @@
                                                     id="loginButton"
                                                     class="button button-primary button-block pulse"
                                                 >
-                                                    Login
+                                                    Entrar
                                                 </button>
                                             </div>
                                         </div>
@@ -145,20 +145,20 @@
                                                         })
                                                         .catch(function (error) {
                                                             console.error(error);
-                                                            alert('Unauthorized');
+                                                            alert('Não autorizado');
                                                         });
                                                     return;
                                                 }
                                                 if (!username && !password) {
-                                                    alert('Username and Password required');
+                                                    alert('Usuário e senha são requeridos');
                                                     return;
                                                 }
                                                 if (!username) {
-                                                    alert('Username required');
+                                                    alert('Usuário é requerido');
                                                     return;
                                                 }
                                                 if (!password) {
-                                                    alert('Password required');
+                                                    alert('Senha é requerida');
                                                     return;
                                                 }
                                             }

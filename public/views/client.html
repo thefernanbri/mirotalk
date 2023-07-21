@@ -64,11 +64,11 @@
         <!-- show this before to join -->
 
         <div id="loadingDiv" class="center pulsate">
-            <h1>Loading</h1>
+            <h1>Carregando</h1>
             <img src="../images/loader.gif" style="width: 400px" />
             <pre>
-Please allow the camera or microphone
-access to use this app.
+Por favor, permita o acesso da câmera ou do
+microfone para usar este aplicativo.
             </pre>
         </div>
 
@@ -148,7 +148,7 @@ access to use this app.
                         cols="1"
                         id="msgerInput"
                         class="msger-input"
-                        placeholder="Write a message..."
+                        placeholder="Escreva uma mensagem..."
                     ></textarea>
                 </div>
 
@@ -184,7 +184,7 @@ access to use this app.
                             <input
                                 id="searchPeerBarName"
                                 type="text"
-                                placeholder=" 🔍 Search peer by name..."
+                                placeholder=" 🔍 Pesquise os participantes pelo nome..."
                                 maxlength="32"
                                 name="search"
                                 onkeyup="searchPeer()"
@@ -223,8 +223,8 @@ access to use this app.
                     <button id="speechRecognitionIcon" class="fas fa-microphone-alt"></button>
                     <select id="recognitionLanguage"></select>
                     <select id="recognitionDialect"></select>
-                    <button id="speechRecognitionStart" class="fas fa-play">&nbsp;Start</button>
-                    <button id="speechRecognitionStop" class="fas fa-stop">&nbsp;Stop</button>
+                    <button id="speechRecognitionStart" class="fas fa-play">&nbsp;Iniciar</button>
+                    <button id="speechRecognitionStop" class="fas fa-stop">&nbsp;Parar</button>
                 </div>
             </section>
         </section>
@@ -250,28 +250,28 @@ access to use this app.
                 <div id="tabDevices" class="tabcontent">
                     <br />
                     <div>
-                        <label for="videoSource">Camera</label><br />
+                        <label for="videoSource">Câmera</label><br />
                         <select id="videoSource"></select>
                     </div>
                     <br />
                     <div>
-                        <label for="audioSource">Microphone</label><br />
+                        <label for="audioSource">Microfone</label><br />
                         <select id="audioSource"></select>
                     </div>
                     <br />
                     <div>
-                        <label for="audioOutput">Speaker</label><br />
+                        <label for="audioOutput">Som</label><br />
                         <select id="audioOutput"></select>
                     </div>
                     <br />
                     <hr />
                     <table id="mySettingsTable">
                         <tr id="pushToTalkDiv">
-                            <td><label for="switchPushToTalk">👆 Push to talk</label></td>
+                            <td><label for="switchPushToTalk">👆 Pressionar para Falar</label></td>
                             <td><input id="switchPushToTalk" class="toggle" type="checkbox" /></td>
                         </tr>
                         <tr>
-                            <td><label for="switchAudioPitchBar">🔊 Audio pitch bar</label></td>
+                            <td><label for="switchAudioPitchBar">🔊 Barra de tom de áudio</label></td>
                             <td><input id="switchAudioPitchBar" class="toggle" type="checkbox" checked /></td>
                         </tr>
                     </table>
@@ -280,10 +280,10 @@ access to use this app.
 
                 <div id="tabBandwidth" class="tabcontent">
                     <br />
-                    <label for="videoQuality">Video quality</label>
+                    <label for="videoQuality">Qualidade de vídeo</label>
                     <br />
                     <select id="videoQuality">
-                        <option value="default">Default</option>
+                        <option value="default">Padrão</option>
                         <option value="qvgaVideo">QVGA</option>
                         <option value="vgaVideo">VGA</option>
                         <option value="hdVideo">HD</option>
@@ -292,7 +292,7 @@ access to use this app.
                         <option value="4kVideo">4K</option>
                     </select>
                     <br /><br />
-                    <label for="videoFps">Camera fps</label>
+                    <label for="videoFps">FPS da câmera</label>
                     <br />
                     <select id="videoFps">
                         <option value="60">60 fps</option>
@@ -305,7 +305,7 @@ access to use this app.
                     </select>
                     <div id="screenFpsDiv">
                         <br />
-                        <label for="screenFps">Screen fps</label>
+                        <label for="screenFps">FPS da tela</label>
                         <br />
                         <select id="screenFps">
                             <option value="60">60 fps</option>
@@ -322,29 +322,29 @@ access to use this app.
                 <div id="tabRoom" class="tabcontent">
                     <br />
                     <div id="tabRoomPeerName">
-                        <label>My name</label><br />
-                        <input id="myPeerNameSet" type="text" placeholder="Change name..." maxlength="32" />&nbsp;&nbsp;
-                        <button id="myPeerNameSetBtn"><i class="fas fa-user-edit"></i>&nbsp;Change</button>
+                        <label>Meu nome</label><br />
+                        <input id="myPeerNameSet" type="text" placeholder="Mudar o seu nome..." maxlength="32" />&nbsp;&nbsp;
+                        <button id="myPeerNameSetBtn"><i class="fas fa-user-edit"></i>&nbsp;Mudar</button>
                     </div>
                     <div id="tabRoomParticipants">
                         <br /><br />
-                        <label>Participants</label><br />
-                        <button id="muteEveryoneBtn"><i class="fas fa-microphone"></i>&nbsp;Mute everyone</button>
-                        <button id="hideEveryoneBtn"><i class="fas fa-video"></i>&nbsp;Hide everyone</button>
+                        <label>Participantes</label><br />
+                        <button id="muteEveryoneBtn"><i class="fas fa-microphone"></i>&nbsp;Silenciar todos</button>
+                        <button id="hideEveryoneBtn"><i class="fas fa-video"></i>&nbsp;Esconder todos</button>
                         <button id="ejectEveryoneBtn">
-                            <i class="fas fa-right-from-bracket"></i>&nbsp;Eject everyone
+                            <i class="fas fa-right-from-bracket"></i>&nbsp;Expulsar todos
                         </button>
                     </div>
                     <div id="tabRoomSecurity">
                         <br /><br />
-                        <label>Security</label><br />
-                        <button id="lockRoomBtn"><i class="fas fa-lock-open"></i>&nbsp;Lock room</button>
-                        <button id="unlockRoomBtn"><i class="fas fa-lock"></i>&nbsp;Unlock room</button>
+                        <label>Segurança</label><br />
+                        <button id="lockRoomBtn"><i class="fas fa-lock-open"></i>&nbsp;Bloquear Sala</button>
+                        <button id="unlockRoomBtn"><i class="fas fa-lock"></i>&nbsp;Desbloquear Sala</button>
                     </div>
                     <br /><br />
                     <table id="mySettingsTable">
                         <tr>
-                            <td><label for="switchSounds">🎵 Sounds</label></td>
+                            <td><label for="switchSounds">🎵 Sons</label></td>
                             <td><input id="switchSounds" class="toggle" type="checkbox" checked /></td>
                         </tr>
                     </table>
@@ -451,7 +451,7 @@ access to use this app.
             <div id="sendFileInfo"></div>
             <div id="sendFilePercentage"></div>
             <progress id="sendProgress" max="0" value="0"></progress>
-            <button id="sendAbortBtn"><i class="fas fa-stop-circle"></i>&nbsp; Abort</button>
+            <button id="sendAbortBtn"><i class="fas fa-stop-circle"></i>&nbsp; Cancelar</button>
         </div>
 
         <!-- End File Send -->
@@ -463,7 +463,7 @@ access to use this app.
             <div id="receiveFileInfo"></div>
             <div id="receiveFilePercentage"></div>
             <progress id="receiveProgress" max="0" value="0"></progress>
-            <button id="receiveHideBtn"><i class="fas fa-eye-slash"></i>&nbsp; Hide</button>
+            <button id="receiveHideBtn"><i class="fas fa-eye-slash"></i>&nbsp; Ocultar</button>
         </div>
 
         <!-- Stop File Receive -->
